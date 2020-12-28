@@ -132,7 +132,7 @@ def main():
         target_pose.position.x = te_x_position_vertical
         target_pose.position.y = te_y_position_vertical
         target_pose.position.z = te_z_position_vertical
-        q = quaternion_from_euler(0, 3.14/5 -3.14/2.0) 
+        q = quaternion_from_euler(1, 3.14/5 -3.14/2.0) 
         target_pose.orientation.x = q[0]
         target_pose.orientation.y = q[1]
         target_pose.orientation.z = q[2]
